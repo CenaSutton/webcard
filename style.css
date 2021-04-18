@@ -1,0 +1,80 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: kumbh sans-serif;
+}
+
+body{
+  background: hsl(185, 75%, 39%);
+}
+
+.container{
+  position: relative;
+  max-width: 800vw;
+  max-height: 750vw;
+  overflow: hidden;
+}
+
+.bg-bottom{
+  position: absolute;
+  right: -60px;
+  top: 450px;
+
+}
+
+.bg-top{
+  position: relative;
+  bottom: 280px;
+  right: 230px;
+}
+
+.card-container{
+  width: 300px;
+  height: 300px;
+  background: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.upper{
+  height: 150px;
+  background-image: url(bg-pattern-card.svg);
+}
+
+.img-container img{
+  border-radius: 50%;
+  transform: translate(100px, 100px)
+}
+
+.lower{
+  height: 175px;
+  background: white;
+}
+
+.profile{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.stats{ 
+  margin-top: 65px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+  border-top: hsl(227, 10%, 46%) solid 1px;
+}
+
+.flp{
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+p{
+  font-size: small;
+  color: hsl(227, 10%, 46%);
+}
